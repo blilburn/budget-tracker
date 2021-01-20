@@ -13,6 +13,7 @@ const FILES_TO_PRECACHE = [
   "/style.css",
   "/favicon.ico",
   "/manifest.webmanifest",
+  "/db.js",
 ].concat(iconFiles);
 
 self.addEventListener('install', (event) => {
